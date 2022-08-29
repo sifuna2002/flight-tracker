@@ -202,7 +202,7 @@ const FlightMap: React.FC<Props> = (props) => {
         aircraftLayerId
       ]}
       mapStyle={styleTheme.map.style}
-      mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+      mapboxAccessToken={'pk.eyJ1IjoiYnJpYW5va2VsbG8iLCJhIjoiY2w2ZGxwbXp3MDAwcTNlbXJzcTdsbmpsNyJ9.raWjjvh4B8_vYuiKamLLfA'}
       onLoad={handleLoad}
       onClick={handleClick}
       onMove={handleMove}
